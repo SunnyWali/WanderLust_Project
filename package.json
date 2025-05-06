@@ -16,5 +16,10 @@
     "url": "https://github.com/SunnyWali/WanderLust_Project/issues"
   },
   "homepage": "https://github.com/SunnyWali/WanderLust_Project#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
 }
