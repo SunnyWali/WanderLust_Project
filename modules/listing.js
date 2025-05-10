@@ -4,7 +4,10 @@ const listingSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    description:String,
+    description:{
+        type:String,
+        set:(v) => v=== "" ? "default link" :v,
+    },
     image:String,
     price:Number,
     country:String,
